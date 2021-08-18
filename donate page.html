@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE Active | Donate</title>
+    <link rel="stylesheet" href="./Design/design3.css">
+</head>
+
+<body>
+    <a href="index.html"><img src="Pictures/homeicon.png" alt="" width="3%" class="homeicon"></a><br><br>
+    <div class="container">
+        <form action="">
+            <h1 class="main">Donate to CSE Active</h1>
+            <hr>
+            <h4>(*=Required)</h4>
+            <h2><strong>Contact Information</strong></h2>
+            <fieldset>
+                <p>
+                    <b>Name*: </b><input type="text" name="name" required placeholder="Enter your name.">
+                </p>
+            </fieldset>
+            <fieldset>
+                <p>
+                    <b>Gender: </b><br><br>
+                    <input type="radio" name="gender" id="male"> Male <br>
+                    <input type="radio" name="gender" id="female"> Female <br>
+                    <input type="radio" name="gender" id="other"> Other <br>
+                </p>
+            </fieldset>
+            <fieldset>
+                <p>
+                    <b>Address: </b><br><br>
+                    <textarea name="address" id="address" cols="25" rows="5"
+                        placeholder="Enter your address"></textarea>
+                </p>
+            </fieldset>
+            <fieldset>
+                <p>
+                    <b>Email*: </b><input type="email" name="email" id="email" required placeholder="example@gamil.com">
+                </p>
+            </fieldset>
+            <fieldset>
+                <p>
+                    <b>Phone Number: </b><input type="number" name="number" id="number">
+                </p>
+            </fieldset>
+            <hr>
+            <h2><strong>Payment Details</strong></h2>
+            <fieldset>
+                <p>
+                    <b>Card Type*: </b>
+                    <select name="card_type" id="card_type" required>
+                        <option value="">---Select---</option>
+                        <option value="visa">Visa</option>
+                        <option value="mastercard">MasterCard</option>
+                        <option value="rupay">RuPay</option>
+                    </select>
+                </p>
+            </fieldset>
+            <fieldset>
+                <p>
+                    <b>Card Number*: </b><input type="number" name="card_number" id="card_number" required
+                        placeholder="1111-2222-3333-4444">
+                </p>
+            </fieldset>
+            <fieldset>
+                <p>
+                    <b>Expiration Date*: </b><input type="date" name="exp_date" id="exp_date" required>
+                </p>
+            </fieldset>
+            <fieldset>
+                <p>
+                    <b>CVV*: </b><input type="password" name="cvv" id="cvv" required placeholder="123">
+                </p>
+            </fieldset>
+            <fieldset>
+                <p>
+                    <b>Amount*: </b><input type="number" name="amount" id="amount" required>
+                </p>
+            </fieldset>
+            <hr>
+            <input type="submit" value="Pay Now">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="reset" value="Reset">
+        </form>
+    </div>
+</body>
+
+</html>
